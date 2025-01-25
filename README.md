@@ -1,16 +1,38 @@
-# Spam-Messages-Classification
+# SMS Spam Corpus README
 
-The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam.
+## Overview
+This dataset contains SMS messages labeled as either **ham** (non-spam) or **spam**. Each message is represented in a single line, with two columns:
 
-## Content
-The files contain one message per line. Each line is composed by two columns: v1 contains the label (ham or spam) and v2 contains the raw text.
+- **v1**: Label ("ham" or "spam")
+- **v2**: Raw text of the SMS message
 
-This corpus has been collected from free or free for research sources at the Internet:
+The corpus has been compiled from publicly available sources and is intended for research and educational purposes.
 
--> A collection of 425 SMS spam messages was manually extracted from the Grumbletext Web site. This is a UK forum in which cell phone users make public claims about SMS spam messages, most of them without reporting the very spam message received. The identification of the text of spam messages in the claims is a very hard and time-consuming task, and it involved carefully scanning hundreds of web pages. The Grumbletext Web site is: [Web Link].
+---
 
--> A subset of 3,375 SMS randomly chosen ham messages of the NUS SMS Corpus (NSC), which is a dataset of about 10,000 legitimate messages collected for research at the Department of Computer Science at the National University of Singapore. The messages largely originate from Singaporeans and mostly from students attending the University. These messages were collected from volunteers who were made aware that their contributions were going to be made publicly available. The NUS SMS Corpus is avalaible at: [Web Link].
+## Format
+Each line of the dataset consists of two columns:
+1. **v1**: Label ("ham" or "spam")
+2. **v2**: The SMS message text
 
--> A list of 450 SMS ham messages collected from Caroline Tag's PhD Thesis available at [Web Link].
+Example:
+```
+ham	Hey, are we still on for dinner tonight?
+spam	Congratulations! You have won a $1,000 Walmart gift card. Reply WIN to claim.
+```
 
--> Finally, we have incorporated the SMS Spam Corpus v.0.1 Big. It has 1,002 SMS ham messages and 322 spam messages and it is public available at: [Web Link]. This corpus has been used in the following academic researches:
+---
+
+## License and Usage
+This dataset has been compiled from publicly available and research-permitted sources. Please ensure proper citation if used in research or publications.
+
+---
+
+## Acknowledgments
+We extend our gratitude to the following contributors:
+- Grumbletext Web Site
+- National University of Singapore (NUS)
+- Caroline Tag
+- SMS Spam Corpus v.0.1 Big
+
+---
